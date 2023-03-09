@@ -1,0 +1,83 @@
+/*Estilos generales*/
+body {
+  background-color: #dfe2e7; }
+  body h2 {
+    text-align: center; }
+  body footer {
+    text-align: center;
+    font-style: oblique;
+    font-size: 20px;
+    color: orange;
+    margin-top: 2rem; }
+  body main {
+    display: block;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center; }
+    body main .padre__hijo--menu {
+      width: 30%;
+      display: inline-block;
+      padding: 20px;
+      text-align: justify;
+      color: orange;
+      font-size: 20px; }
+  body .padre {
+    background-color: transparent;
+    margin-bottom: 200px; }
+    body .padre .padre__hijo {
+      width: 30%;
+      display: inline-block;
+      padding: 20px;
+      text-align: justify;
+      color: white;
+      font-size: 20px; }
+  body header .Titulo-index {
+    text-align: center;
+    align-items: center; }
+  body fieldset {
+    margin-top: 40px; }
+    body fieldset legend {
+      background-color: lavender;
+      font-size: large;
+      font-style: italic; }
+  body .main__contacto {
+    margin-bottom: 200px; }
+  body .section_historia {
+    display: flex;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    padding: 1rem; }
+    body .section_historia .historia {
+      text-align: center; }
+      body .section_historia .historia .imagen {
+        text-align: center;
+        display: table-cell;
+        padding: 10px;
+        vertical-align: middle;
+        height: 40%; }
+      body .section_historia .historia .description {
+        text-align: center;
+        display: table-cell;
+        padding: 10px;
+        vertical-align: middle;
+        height: 60%; }
+  body .main__historia {
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 1rem; }
+  body .main__index {
+    padding: 30px;
+    height: 400px;
+    display: flex;
+    align-items: center; }
+    body .main__index div {
+      background-image: url(../img/salmon-g45a037d60_640.jpg);
+      text-align: center;
+      margin: 10px 10px 10px 10px;
+      height: 300px;
+      border: 10px;
+      margin-bottom: 20px; }
